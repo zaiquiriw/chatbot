@@ -3,7 +3,7 @@ import csv
 
 openai.api_key = "open-ai-key"
 
-data = []  # Store your csv data in the form of [('Entity', 'Context'), ...]
+data = []
 
 with open("entity_data.csv", "r") as csvfile:
     csv_reader = csv.reader(csvfile)
