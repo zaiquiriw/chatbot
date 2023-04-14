@@ -1,7 +1,7 @@
 import openai
 import csv
 
-openai.api_key = "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"
+openai.api_key = "open-ai-key"
 
 data = []  # Store your csv data in the form of [('Entity', 'Context'), ...]
 
